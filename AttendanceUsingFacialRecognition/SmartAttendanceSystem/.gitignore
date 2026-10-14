@@ -1,0 +1,24 @@
+# Maven and Java build output
+/target/
+/out/
+*.class
+*.jar
+
+# Local student data: face photographs, enrollment metadata, and LBPH models
+/data/
+**/lbph-model.yml
+**/labels.tsv
+
+# Personal attendance records and exported reports
+/attendance*
+**/attendance*.xlsx
+**/attendance*.xls
+**/attendance*.csv
+**/records.tsv
+
+# IDE and operating-system files
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*.log
